@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page about Pickles</title>
+</head>
+
+<body>
+    <h1>The Professional Pickle Page</h1>
+    <p>This is a very educational site about, you guessed it, Pickles. Although this is primarily a site to help me better my HTML skills, I believe, by the end, we will al learn a little more about pickles.</p>
+    <div id="intro">
+        <h2>Lets Begin with exploring a few heading elements, while we talk about Pickles</h2>
+        <p>Ancient Egyptian queen Cleopatra claimed pickles made her beautiful.</p>
+    </div>
+    <div id="class">
+        <h3>I'll be honest, I am not exactly sure how to use divs</h3>
+        <p>Aside from organizing html, I guess you can use divs for css but im not sure how. Are divs best practice, or are there times not to use them? The Department of Agriculture estimates that the average American eats 8.5 lbs of pickles a year.</p>
+    </div>
+    <div>
+        <p>Cucumbers, <span>which are native to India,</span> were first brought to the Tigris Valley and pickled way back in 2030 B.C.—although preserving food in a vinegar or brine solution may stretch back even further with the Mesopotamians.</p>
+        <p>This fact is brought to you <a href="https://www.mentalfloss.com/article/71166/10-pickle-facts-savor-honor-national-pickle-day" target="_blank">Mental Floss</a></p>
+    </div>
+    <div>
+        <h6>Cucumbers to Pickles</h6>
+        <p>Italian explorer <em>Amerigo Vespucci</em> was once a ship chandler, supplying merchants and sailors with supplies for their voyages, including preserved meats and vegetables. His nickname, the pickle merchant, likely arose from his former trade. <br> <br> Writer Ralph Waldo Emerson derisively referred to Vespucci as a <strong>“pickle-dealer”</strong> in his book English Traits.</p>
+    </div>
+    <div>
+        <h3>Famous People who Loved Pickles</h3>
+        <ul>
+            <li>Cleopatra</li>
+            <li>Julius Caesar</li>
+            <li>Shakespeare</li>
+        </ul>
+    </div>
+    <div>
+        <h3>How to Make Pickles</h3>
+        <img src="" alt="image of pickle bear"/>
+            <ol>
+                <li>Step 1: Slice your cucumbers as desired.</li>
+                <li>Whisk together a basic brine made of water, vinegar and seasonings.</li>
+                <li>Pack the cucumbers into a jar, add some dill and garlic, and pour the brine over it all.</li>
+                <li>Refrigerate until the pickles taste sufficiently “pickled!”</li>
+            </ol>
+    </div>
+<div>
+    <form action="/practice.html" method="POST">
+        <h1>Subscribe Here</h1>
+        <p>Want to stay connected to the latest pickle news? sign up to recieve our pickle newsletters</p>
+        <label for="email">Enter Your Email Here</label>
+        <br>
+        <input type="text" name="email" value="janedoe@gmail.com" id="email">
+        <br>
+        <label for="user-password">Enter a User Password</label>
+        <br>
+        <input type="password" id="user-password" name="user-password">
+    </form>
+</div>
+<div>
+    <form action="/practice.html" method="POST">
+        <h1>Order your Pickles Here</h1>
+        <label for="count">Number of Pickles</label>
+        <input id="count" name="count" type="number" step="1">
+        <br>
+        <label for="spice">Spice Level (1=mild, 10=SPICEY!)</label>
+        <input id="spice" name="spice" type="range" min="1" max="10" step="1">
+        <br>
+        <p>Additional Pickled Items</p>
+        <label for="carrots">Carrots</label>
+        <input id="carrots" name="extras" type="checkbox" value="carrots">
+        <br>
+        <label for="garlic">Garlic</label>
+        <input id="garlic" name="extras" type="checkbox" value="garlic">
+        <br>
+        <label for="onion">Onions</label>
+        <input id="onion" name="extras" type="checkbox" value="onion">
+        <p>How Would you like you pickles to be shipped?</p>
+        <input type="radio" id="box" name="answer" value="box">
+        <label for="box">Square</label>
+        <br>
+        <input type="radio" id="cylinder" name="answer" value="cylinder">
+        <label for="cylinder">Cylinder</label>
+        <br>
+        <br>
+        <label for="shape">What Shape would you like?</label>
+            <select id="shape" name="shape">
+                <option value="chips">Chips</option>
+                <option value="spears">Spears</option>
+                <option value="wedges">Wedges</option>
+                <option value="halves">Halves</option>
+                <option value="whole">Whole</option>
+            </select>
+            <br>
+        <label for="city">Where would you like your Pickles sourced from?</label>
+        <input type="text" list="cities" id="city" name="city">
+        <datalist id="cities">
+            <option value="vermont"></option>
+            <option value="nebraska"></option>
+            <option value="california"></option>
+            <option value="maine"></option>
+        </datalist>
+        <br>
+        <br>
+        <label for="other">Add additional notes or requests about your order</label>
+        <br>
+        <textarea id="other" name="other" rows="5" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send">
+    </form>
+</div>
+<div>
+    <form action="/example.html" method="POST">
+        <label for="texting">Sign up for text updates</label>
+        <br>
+        <input id="texting" name="texting" type="text" required>
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+        <label for="frequent">How many texts would you like a month?</label>
+        <input id="frequent" name="frequent" type="number" min="1" max="4">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div>
+    <form action="/example.html" method="POST">
+        <label for="feedback">Tell us feedback on our site</label>
+        <input id="feedback" name="feedback" type="text" minlength="5" maxlength="250" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div>
+    <form action="/example.html" method="POST">
+        <label for="payment">Please Enter Credit Card number (no spaces)</label>
+        <input id="payment" name="payment" type="text" required pattern="[0-9]{14,16}">
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+</body>
+</html>
