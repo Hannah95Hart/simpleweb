@@ -1,0 +1,38 @@
+.bold{
+    font-weight: bold;
+}
+.brown{
+    background-color: #312020;
+}
+#article-title{
+    font-family: helvetica;
+    text-align:center;
+    background-color: #312020;
+    color: white;
+}
+h1:hover{
+    background-color: darkorange;
+}
+.white{
+    color: white;
+    font-family: Georgia;
+    font-size: 30px;
+    text-align: center;
+}
+.background{
+    background-image: url('images/PickleJars.jpg');
+    height: 700px;
+    width: 400px;
+}
+
+.border{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 10px dotted red;
+    text-align: center;
+}
+
+.padding li{
+    padding: 20px;
+}
